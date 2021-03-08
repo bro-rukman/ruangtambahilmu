@@ -2,40 +2,100 @@
     "categories": [
         {
             "id": 1,
-            "title": "programming",
-            "total": 183,
-            "imageUrl": "/images/img-1.png",
-            "course": "Course",
+            "kategori": "FORMAL",
+            "total": 120,
             "item": [
                 {
                     "id": 1,
-                    "name": "javascript1",
-                    "level": "beginner",
-                    "price": 250000
+                    "title": "SD",
+                    "item": [
+                        {
+                            "id": 1,
+                            "title": "Matematika"
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "javascript2",
-                    "level": "beginner",
-                    "price": 250000
-                },
-                {
-                    "id": 3,
-                    "name": "javascript3",
-                    "level": "beginner",
-                    "price": 250000
+                    "id": 1,
+                    "title": "SMP",
+                    "item": [
+                        {
+                            "id": 1,
+                            "title": "Bahasa Inggris"
+                        }
+                    ]
                 }
             ]
         },
         {
             "id": 2,
-            "title": "Designer",
-            "total": 204,
-            "course": "Course",
+            "kategori": "NONFORMAL",
+            "total": 120,
             "item": [
                 {
                     "id": 1,
-                    "name": "UI UX Fundamental",
+                    "title": "Bulu Tangkis"
+                },
+                {
+                    "id": 2,
+                    "title": "Basket"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "kategori": "SOFT SKILL",
+            "total": 120,
+            "item": [
+                {
+                    "id": 1,
+                    "title": "Programming",
+                    "total": 183,
+                    "item": [
+                        {
+                            "id": 1,
+                            "name": "javascript1",
+                            "level": "beginner",
+                            "price": 250000
+                        },
+                        {
+                            "id": 2,
+                            "name": "javascript2",
+                            "level": "beginner",
+                            "price": 250000
+                        },
+                        {
+                            "id": 3,
+                            "name": "javascript3",
+                            "level": "beginner",
+                            "price": 250000
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Designer",
+                    "total": 204,
+                    "course": "Course",
+                    "item": [
+                        {
+                            "id": 1,
+                            "name": "UI UX Fundamental",
+                            "level": "beginner",
+                            "price": 300000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "kategori": "HARD SKILL",
+            "total": 120,
+            "item": [
+                {
+                    "id": 1,
+                    "name": "Tukang Bakso",
                     "level": "beginner",
                     "price": 300000
                 }
@@ -47,7 +107,15 @@
             "id": 1,
             "title": "FREE PAKET",
             "detail": "1 Video /hari",
-            "price": 0
+            "price": 0,
+            "benefit": [
+                {
+                    "detail": "Free video 1 hari"
+                },
+                {
+                    "detail": "Update Kelas Terbaru"
+                }
+            ]
         },
         {
             "id": 2,
@@ -83,7 +151,24 @@
             "id": 7,
             "title": "PLUTONIUM",
             "detail": "Unlimited kelas",
-            "price": 80000
+            "price": 80000,
+            "benefit": [
+                {
+                    "detail": "Unlimited akses kelas"
+                },
+                {
+                    "detail": "Mentor yang telah expert dibidang nya"
+                },
+                {
+                    "detail": "Forum Diskusi"
+                },
+                {
+                    "detail": "Diskusi Private bersama mentor"
+                },
+                {
+                    "detail": "Update Kelas Terbaru"
+                }
+            ]
         }
     ]
 }

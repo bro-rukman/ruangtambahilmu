@@ -15,58 +15,47 @@ import axios from 'axios';
 
 
 class Categories extends Component{
+    state={
+        category : [],
+    }
+    componentDidMount(){
+        axios.get(`http://localhost:3004/categories/`).then((res)=>{
+            console.log(res);
+            this.setState({
+                category: res.data
+            })
+        })
+        .catch(err=>{
+            console.log(err);
+        })
+    }
     render(){
+        const {category} = this.state;
         const imageData=[
             {
-                imageName : <Code/>,
-                name : "Programming",
-                total : 23,
-                course : "Course",
-                item : [
-                    {
-                        id : 1,
-                        course : "Fullstack Javascript",
-                    },
-                    {
-                        id : 2,
-                        course : "Swift IOS",
-                    },
-                    {
-                        id : 3,
-                        course : "Python",
-                    }
-                ]
+                id : 1,
+                imageName : <Code/>
             },
             {
-                imageName : <Content/>,
-                name : "Content Creator",
-                total : 183,
-                course : "Course"
+                id : 2,
+                imageName : <Content/>
             },
             {
-                imageName : <Designer/>,
-                name : "Designer",
-                total : 85,
-                course : "Course"
+                id : 3,
+                imageName : <Designer/>
             },
             {
-                imageName : <Horn/>,
-                name : "Digital Marketing",
-                total : 43,
-                course : "Course"
+                id : 4,
+                imageName : <Horn/>
             },
             {
-                imageName : <Engineer/>,
-                name : "Software Engineer",
-                total : 58,
-                course : "Course"
+                id : 5,
+                imageName : <Engineer/>
             },
             {
-                imageName : <Headphone/>,
-                name : "Public Speaking",
-                total : 23,
-                course : "Course"
-            },
+                id : 6,
+                imageName : <Headphone/>
+            }
         ]
         return (
             <>
@@ -76,9 +65,9 @@ class Categories extends Component{
                     <h1 className="text-gray-700 text-xl md:text-2xl font-medium md:font-semibold mt-3 mb-1">Kategori</h1>
                     <p className="text-sm text-gray-600 mb-8">Temukan lebih banyak kelas yang serupa dengan minat mu !</p>
                 </div>
-                <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6">
                     {
-                        imageData?.length>0? (imageData.map((item,index)=>{
+                        category?.length> 0 ? (category.map((item,index)=>{
                             return <RenderCard item={item} key={index}></RenderCard>
                         })) : (
                             <div className="w-full text-center text-md py-10">

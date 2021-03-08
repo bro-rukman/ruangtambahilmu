@@ -1,0 +1,89 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "programming",
+            "total": 183,
+            "imageUrl": "/images/img-1.png",
+            "course": "Course",
+            "item": [
+                {
+                    "id": 1,
+                    "name": "javascript1",
+                    "level": "beginner",
+                    "price": 250000
+                },
+                {
+                    "id": 2,
+                    "name": "javascript2",
+                    "level": "beginner",
+                    "price": 250000
+                },
+                {
+                    "id": 3,
+                    "name": "javascript3",
+                    "level": "beginner",
+                    "price": 250000
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Designer",
+            "total": 204,
+            "course": "Course",
+            "item": [
+                {
+                    "id": 1,
+                    "name": "UI UX Fundamental",
+                    "level": "beginner",
+                    "price": 300000
+                }
+            ]
+        }
+    ],
+    "langganan": [
+        {
+            "id": 1,
+            "title": "FREE PAKET",
+            "detail": "1 Video /hari",
+            "price": 0
+        },
+        {
+            "id": 2,
+            "title": "SILVER",
+            "detail": "1 kelas /bulan",
+            "price": 15000
+        },
+        {
+            "id": 3,
+            "title": "DIAMOND",
+            "detail": "1 kelas / hari (max 20 kelas/bulan)",
+            "price": 20000
+        },
+        {
+            "id": 4,
+            "title": "PLATINUM",
+            "detail": " 5 kelas / hari (max 50 kelas/bulan)",
+            "price": 50000
+        },
+        {
+            "id": 5,
+            "title": "URANIUM",
+            "detail": " 10 kelas / hari (max 200 kelas/bulan)",
+            "price": 200000
+        },
+        {
+            "id": 6,
+            "title": "TITANIUM",
+            "detail": " 30 kelas / hari (max 600 kelas/bulan)",
+            "price": 500000
+        },
+        {
+            "id": 7,
+            "title": "PLUTONIUM",
+            "detail": "Unlimited kelas",
+            "price": 80000
+        }
+    ]
+}

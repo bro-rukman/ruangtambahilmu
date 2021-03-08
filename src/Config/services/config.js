@@ -1,0 +1,1 @@
+export const Rootpath = 'http://localhost:3004';

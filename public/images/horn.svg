@@ -1,0 +1,6 @@
+<svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-reactroot="">
+<path fill="#1537C8" d="M19 8V14C20.66 14 22 12.66 22 11C22 9.34 20.66 8 19 8Z" undefined="1"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-width="1" stroke="white" d="M19 8V14"></path>
+<path fill="#1537C8" d="M19 19L9 14V8L19 3V19Z" undefined="1"></path>
+<path fill="#1537C8" d="M2 11C2 13.21 3.79 15 6 15V20C6 20.5523 6.44772 21 7 21H8C8.55228 21 9 20.5523 9 20V15V14V7H6C3.79 7 2 8.79 2 11Z" clip-rule="evenodd" fill-rule="evenodd" undefined="1"></path>
+</svg>
